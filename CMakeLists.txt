@@ -3,4 +3,4 @@ project(heap_memory_manager C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(heap_memory_manager main.c)
+add_executable(heap_memory_manager main.c mm.h uapi_mm.h)
